@@ -40,6 +40,12 @@ p {
     width: 100%;
     border-radius: 3px;
     height: 100%;
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: 1em;;
 }
 
 /* Color Boxes */
@@ -67,11 +73,6 @@ p {
     letter-spacing: 0.1em;
 }
 
-span {
-    display: block;
-    margin-top: 1em;;
-}
-
 .color1 {
     background-color: rgb(252,249,234);
 }
@@ -86,4 +87,91 @@ span {
 
 .color4 {
     background-color: hsl(16.9,100%,68%);
+}
+
+/* Font Boxes */
+
+.fonts {
+    height: auto;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.label {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+
+.font-box {
+    max-width: 100%;
+    max-height: 90%;
+    margin: 8px;
+}
+
+.pm {
+    font-family: "Permanent Marker", sans-serif;
+}
+
+.bsc {
+    font-family: "Barlow Semi Condensed", serif;
+}
+
+.pfd {
+    font-family: "Playfair Display SC", serif;
+}
+
+.reg {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.heavybold {
+    font-weight: 900;
+}
+
+/* Style Boxes */
+
+.heading-style {
+    color: black;
+    font-size: 3em;
+}
+
+ul {
+    font-size: 3em;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: black;
+    list-style-type: square;
+    font-weight: bold;
+}
+
+li {
+    text-decoration-color: black;
+}
+
+
+.sub .heading-style {
+    font-size: 2em;
+} 
+
+.sub ul {
+    font-size: 2em;
+}
+
+.style-p .heading-style {
+    font-size: 1.8em;
+    margin: 30px;
+    font-weight: 400;
+}
+
+.style-p ul {
+    font-size: 1.8em;
+    font-weight: 400;
+    padding-bottom: 50px;
 }
